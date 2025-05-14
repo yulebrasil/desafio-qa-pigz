@@ -30,8 +30,10 @@ O objetivo é cobrir tanto os **cenários felizes** (em que tudo ocorre como o e
 | Nome do cardápio ausente                   | Tentar salvar sem preencher o nome do cardápio                                          | Sistema bloqueia o cadastro e exibe mensagem de erro          |
 | Nome duplicado no mesmo restaurante        | Cadastrar dois cardápios com o mesmo nome no mesmo restaurante                         | Sistema exibe mensagem de erro de duplicidade                 |
 | Item sem nome ou preço inválido            | Adicionar item sem nome ou com texto no campo de preço (ex: “dez reais”)               | Cadastro bloqueado e mensagens de erro exibidas               |
-| Campo de preço com número negativo         | Inserir preço como -5 ou 0 em um item                                                   | Sistema bloqueia ou avisa sobre valor inválido                |
+| Campo de preço com número negativo         | Inserir preço como -5 ou 0 em um item.                                               | Sistema bloqueia ou avisa sobre valor inválido                |
 | Cadastro com campos vazios                 | Tentar salvar o cardápio sem preencher os campos dos itens                              | Sistema bloqueia e informa os campos que faltam               |
+| Inserção de preço com vírgula              | Preencher o preço de um item usando vírgula como separador decimal            | Sistema interpreta corretamente ou exibe erro claro de formatação |
+| Inserção de preço com ponto                | Preencher o preço de um item usando ponto como separador decimal              | Sistema interpreta corretamente como valor monetário          |
 
 📝 *Observação:* também seria interessante testar o comportamento de edição de cardápios já cadastrados. Por exemplo, o sistema permite alterar o nome para um duplicado?
 

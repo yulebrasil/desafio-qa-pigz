@@ -34,14 +34,14 @@ Prints e/ou vídeos do processo estão em anexo no cartão.
 
 Após criar o cartão no JIRA com as evidências do problema (prints e vídeos), minhas ações seriam:
 
-1. **Mencionar diretamente o desenvolvedor responsável** (Bruno) no próprio cartão do JIRA, utilizando @Bruno para notificá-lo automaticamente. Dessa forma, centralizamos a comunicação e aproveitamos as funcionalidades de automação e histórico da plataforma.
+1. **Mencionaria diretamente o desenvolvedor responsável** (Bruno) no próprio cartão do JIRA, utilizando @Bruno para notificá-lo automaticamente. Dessa forma, centralizamos a comunicação e aproveitamos as funcionalidades de automação e histórico da plataforma.
 
-2. **Adicionar um comentário direcionado** no cartão, explicando o impacto do bug e sugerindo prioridade de correção, com base nas regras de negócio. Exemplo:  
+2. **Adicionaria um comentário direcionado** no cartão, explicando o impacto do bug e sugerindo prioridade de correção, com base nas regras de negócio. Exemplo:  
    *"@Bruno, identifiquei que a validação de CPF está permitindo valores inválidos. Isso pode impactar a emissão de notas fiscais. Poderia verificar a lógica de validação no back-end?"*
 
-3. **Alterar o status do cartão para "To Do" ou "Aguardando Dev"**, conforme o fluxo do time, para indicar que precisa ser tratado.
+3. **Alteraria o status do cartão para "To Do" ou "Aguardando Dev"**, conforme o fluxo do time, para indicar que precisa ser tratado.
 
-4. **Notificar a gerente de projeto (Carol)** também pelo JIRA, mencionando-a no comentário ou adicionando como "watcher" do cartão, para que ela acompanhe e possa reavaliar as prioridades do projeto, caso necessário.
+4. **Notificaria a gerente de projeto (Carol)** também pelo JIRA, mencionando-a no comentário ou adicionando como "watcher" do cartão, para que ela acompanhe e possa reavaliar as prioridades do projeto, caso necessário.
 
 5. **Após a correção feita por Bruno**, realizaria os testes de regressão necessários e **atualizaria o status do cartão**, além de registrar os resultados da validação com um comentário final, mantendo a rastreabilidade.
 

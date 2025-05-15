@@ -18,7 +18,7 @@ O objetivo é cobrir tanto os **cenários felizes** (em que tudo ocorre como o e
 | Campo obrigatório vazio                    | Deixar um ou mais campos obrigatórios em branco (ex: telefone, endereço) e salvar       | Sistema impede cadastro e informa quais campos faltam         |
 | Formato incorreto no telefone              | Inserir telefone fora do padrão e tentar salvar                                         | Sistema exibe erro ou impede o cadastro                       |
 
-📝 *Observação:* vale verificar se o botão “Salvar” só está habilitado após todos os campos obrigatórios estarem preenchidos corretamente. Essa pequena lógica evita erros de fluxo.
+*Observação:* vale verificar se o botão “Salvar” só está habilitado após todos os campos obrigatórios estarem preenchidos corretamente. Essa pequena lógica evita erros de fluxo.
 
 ---
 
@@ -35,7 +35,7 @@ O objetivo é cobrir tanto os **cenários felizes** (em que tudo ocorre como o e
 | Inserção de preço com vírgula              | Preencher o preço de um item usando vírgula como separador decimal            | Sistema interpreta corretamente ou exibe erro claro de formatação |
 | Inserção de preço com ponto                | Preencher o preço de um item usando ponto como separador decimal              | Sistema interpreta corretamente como valor monetário          |
 
-📝 *Observação:* também seria interessante testar o comportamento de edição de cardápios já cadastrados. Por exemplo, o sistema permite alterar o nome para um duplicado?
+*Observação:* também seria interessante testar o comportamento de edição de cardápios já cadastrados. Por exemplo, o sistema permite alterar o nome para um duplicado?
 
 ---
 
